@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: Consumer2
+Class-Path: gson-2.10.1.jar slf4j-api-1.7.36.jar slf4j-simple-1.7.36.jar
+  amqp-client-5.16.0.jar
+

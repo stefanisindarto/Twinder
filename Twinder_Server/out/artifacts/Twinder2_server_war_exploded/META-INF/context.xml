@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+   <!-- "global" attribute links to GlobalNamingResources in the ${catalina.base}/conf/server.xml (server administrator team)
+  "name" attribute is relative to the application-private JNDI context java:comp/env/ and is looked up from the java web application (application developer team)-->
+   <ResourceLink global="jdbc/Twinder2_SwipeData" name="jdbc/SwipeData" type="javax.sql.DataSource"/>
+</Context>
